@@ -41,7 +41,7 @@ stages {
         }
       }
     }
-  stage('Grade testing') {
+  stage('Gradle testing') {
       steps {
         container("$CONTAINER") {
           timestamps {
